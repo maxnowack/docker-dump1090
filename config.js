@@ -26,8 +26,8 @@ ShowOtherUnits = true;
 // degrees.
 
 // Default center of the map.
-DefaultCenterLat = 52.085624;
-DefaultCenterLon = 5.0890591;
+DefaultCenterLat = 51.51224;
+DefaultCenterLon = 9.97256;
 // The google maps zoom level, 0 - 16, lower is further out
 DefaultZoomLvl   = 7;
 
@@ -35,14 +35,14 @@ DefaultZoomLvl   = 7;
 // that location is used and these settings are ignored.
 
 SiteShow    = true;            // true to show a center marker
-SiteLat     = 52.085624;       // position of the marker
-SiteLon     = 5.0890591;
-SiteName    = "My Radar Site"; // tooltip of the marker
+SiteLat     = 51.51224;       // position of the marker
+SiteLon     = 9.97256;
+SiteName    = "GDA"; // tooltip of the marker
 
 // User Map (KML File)
 // Enables KML overlay on map, UserMap must have a value below when "true"
-UserMapShow = true;            //true to show KML
-// KML to show, for example your rangeview.kml: 
+UserMapShow = false;            //true to show KML
+// KML to show, for example your rangeview.kml:
 UserMap     = "https://dl.dropboxusercontent.com/u/17865731/dump1090-20150916/rangeview.kml";  // your KML URL (publicly available domain)
 
 // User heatmap (csv File)

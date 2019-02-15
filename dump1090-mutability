@@ -18,7 +18,7 @@ LOGFILE="/var/log/dump1090-mutability.log"
 
 # RTLSDR device index or serial number to use
 # If set to "none", dump1090 will be started in --net-only mode
-DEVICE="none"  
+DEVICE="0"
 
 # RTLSDR gain in dB.
 # If set to "max" (the default) the maximum supported gain is used.
@@ -46,8 +46,8 @@ FIX_CRC="yes"
 AGGRESSIVE="no"
 
 # If set, supplies a reference location for local position decoding.
-LAT="52.085624"
-LON="5.0890591"
+LAT="51.51224"
+LON="9.97256"
 
 # If set, provides the absolute maximum receiver range used to
 # filter bad position reports, and to determine when local position
@@ -59,7 +59,7 @@ MAX_RANGE="400"
 #
 
 # Port to listen on for HTTP connections. 0 disables.
-# HTTP defaults to being disabled unless you specify something here. I 
+# HTTP defaults to being disabled unless you specify something here. I
 # that you do not enable this, and instead serve the contents of
 # /usr/share/dump1090-mutability and JSON_DIR (below) using a proper
 # webserver. See /etc/lighttpd/conf-available/90-dump1090.conf
